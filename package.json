@@ -1,0 +1,21 @@
+{
+  "name": "jekyll.nicholasjay.com",
+  "version": "1.0.0",
+  "description": "Testing Jekyll",
+  "main": "",
+  "repository": "git@github.com:nickroberts/jekyll.nicholasjay.com.git",
+  "author": "Nick Roberts <djparadyme@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "build": "webpack --config _config/webpack.config.js && bundle exec jekyll build"
+  },
+  "dependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  }
+}
